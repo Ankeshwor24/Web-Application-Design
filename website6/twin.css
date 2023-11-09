@@ -1,0 +1,114 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(shop.jpg);
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+ul{
+	list-style-type: none;
+	float: right;
+	margin-top: 20px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	padding: 20px;
+	color: #fff;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+.logo img{
+	width: 100px;
+	height: 50px;
+	padding: 25px;
+	float: left;
+}
+marquee{
+	color: blue;
+	direction: left;
+	background:url(shop.jpg);
+	background-repeat: repeat;
+	font-size: 30px;
+}
+.form1{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 400px;
+	padding: 40px;
+background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(sho.jpg);
+background-size: cover;
+	box-sizing: border-box;
+	box-shadow: 0 15px 25px rgba(0,0,0,.5);
+	border-radius: 10px;
+}
+.form1 h2{
+	margin:0 0 30px;
+	padding: 0;
+	color: #fff;
+	text-align: center;
+}
+.form1 .inputbox{
+	position: relative;
+	
+}
+.form1 .inputbox input{
+		width: 100%;
+	padding: 10px 0;
+	font-size: 16px;
+	color: #fff;
+	letter-spacing: 1px;
+	margin-bottom: 30px;
+	border: none;
+	border-bottom: 1px solid #fff;
+	outline: none;
+	background: transparent;;
+}
+.form1 .inputbox label{
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 10px 0;
+	font-size: 16px;
+	color: #fff;
+	pointer-events: none;
+	transition: -5s;
+}
+.form1 .inputbox input:valid ~ label,
+.form1 .inputbox input:focus ~ label
+{
+	top: -18px;
+	left: 0;
+	color: #03a9f4;
+	font-size: 12px;	
+}
+.form1 input[type="submit"]{
+	background:transparent;
+	border: none;
+	outline: none;
+	color: #fff;
+	background:#03a9f4;
+	padding: 10px 20px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+.whatsapp img{
+	position: absolute;
+	float: bottom right;
+	height: 50px;
+	width: 50px;
+}
